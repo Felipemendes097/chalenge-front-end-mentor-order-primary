@@ -1,0 +1,44 @@
+@media(max-width:500px) {
+    body {
+        background: url(../images/pattern-background-mobile.svg) no repeat;
+    }
+
+    .card {
+        width: 300px;
+        height: 550px;
+    }
+
+    .card .image img {
+        width: 100%;
+    }
+
+    .card .text {
+        margin-top: -10px;
+    }
+
+    .card .title {
+        font-size: 10px;
+        margin-right: -5px;
+    }
+
+    .card .txt p {
+        font-size: 12px;
+        width: 215px;
+        font-weight: 700;
+        margin-left: -9px;
+        padding: 4px;
+    }
+
+    .card .plan {
+        width: 270px;
+        height: 80px;
+    }
+
+    .card .plan a {
+        margin-right: 15px;
+    }
+
+    .card .process .process-payment {
+        width: 270px;
+    }
+}

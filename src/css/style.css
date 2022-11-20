@@ -1,0 +1,119 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: #E1E9FF;
+    max-width: 1440px;
+}
+
+main {
+    min-height: 100vh;
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--neutral-light);
+    max-width: 450px;
+    height: 620px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--neutral-dark) 0px 4px 13px 0px;
+}
+
+.card .image img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card .text {
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card .text .title {
+    padding-right: 17px;
+    color: var(--neutral-dark);
+}
+
+.card .text .txt {
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--neutral-medium);
+}
+
+.card .plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary-Pale);
+    min-height: 70px;
+    width: 320px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+.card .plan h4 {
+    margin-right: 24px;
+    padding-right: 30px;
+    font-weight: 900;
+    color: var(--neutral-dark);
+}
+
+.card .plan span {
+    color: var(--neutral-medium);
+}
+
+.card .plan a {
+    font-size: 14px;
+    color: var(--primary-bright);
+    font-weight: 900;
+}
+
+.card .plan a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.card .process {
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.card .process .payment {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card .process .process-payment {
+    background-color: var(--primary-bright);
+    width: 355px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 15px;
+    color: var(--neutral-light);
+    box-shadow: var(--neutral-dark) 0px 4px 13px 0px;
+    margin-bottom: 5px;
+}
+
+.card .process .process-payment:hover {
+    opacity: 0.8;
+}
+
+.card .process .cancel {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    color: var(--neutral-dark);
+    font-weight: 900;
+}
